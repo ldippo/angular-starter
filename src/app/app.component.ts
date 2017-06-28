@@ -19,6 +19,7 @@ import { AppState } from './app.service';
     './app.component.css'
   ],
   template: `
+  <h1>allo</h1>
     <nav>
       <a [routerLink]=" ['./'] "
         routerLinkActive="active" [routerLinkActiveOptions]= "{exact: true}">
